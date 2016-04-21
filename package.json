@@ -1,0 +1,32 @@
+{
+  "name": "paper-audio-player",
+  "version": "0.0.3",
+  "description": "A custom audio player with material paper style and clean design.",
+  "main": "index.html",
+  "directories": {
+    "demo": "demo"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SonyaMoisset/edm.git"
+  },
+  "keywords": [
+    "web-component",
+    "web-components",
+    "polymer",
+    "audio",
+    "player",
+    "paper",
+    "material",
+    "minimalistic"
+  ],
+  "author": "Sonya Moisset",
+  "license": "MIT",
+  "homepage": "http://sonyamoisset.github.io/edm",
+  "devDependencies": {
+    "bower": "^1.5.3",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.0.2",
+    "gulp-sass": "^2.0.4"
+  }
+}
