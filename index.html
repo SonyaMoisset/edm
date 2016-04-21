@@ -1,0 +1,118 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+  <meta name="description" content="EDM Paper Audio Player Landing Page">
+  <meta name="author" content="Sonya Moisset">
+
+  <title>EDM Paper Audio Player Landing Page</title>
+
+  <!-- Bootstrap Core CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+  <!-- Custom fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+  <!-- Custom CSS -->
+  <link href="animate.min.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="demo.scss">
+  <link href="style.css" rel="stylesheet">
+
+  <script src="bower_components/webcomponentsjs/webcomponents.js"></script>
+  <link rel="import" href="paper-audio-player.html">
+
+  <style is="custom-style">
+    paper-audio-player.orange {
+        --paper-audio-player-color: #F05C38;
+      }
+  </style>
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <![endif]-->
+</head>
+
+<body>
+
+  <div class="container-fluid content">
+    <div class="row content">
+      <div class="col-md-9 info text-center">
+
+        <div class="col-md-9">
+          <div class="row">
+            <div class="col-md-12">
+              <h2 class="wow bounceInDown edm"><i class="fa fa-play"></i> edm</h2>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-12">
+                <paper-audio-player class="orange" src="Goodbye.mp3" title="Feder - Goodbye"></paper-audio-player>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="row">
+              <div class="col-md-12">
+                <ul class="list-inline">
+                  <li class="about"><a class="btn btn-border btn-lg wow fadeInLeft">About us</a></li>
+                  <li class="more"><a class="btn btn-white btn-lg wow fadeInRight">More Info</a></li>
+                </ul>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3 col-left no-padding">
+        <div class="leftline leftline-dark wow fadeInLeft">
+          <div class="leftlineinside">
+            <div class="row">
+              <div class="col-md-12">
+                <h1 class="logo"><i class="fa fa-play"></i></h1>
+              </div>
+
+              <div class="col-md-12">
+                <h2> Get informed!</h2>
+                <form role="form" id="mc-embedded-subscribe-form" class="form-inline subscribe-form">
+                  <div class="input-group input-group-lg">
+                    <input type="email" name="EMAIL" class="form-control" placeholder="Email">
+                    <span class="input-group-btn">
+                      <button type="submit" name="subscribe" class="btn btn-dark">Go</button>
+                    </span>
+                  </div>
+                </form>
+
+                <a href="#"><i class="fa fa-facebook fa-fw fa-3x sns"></i></a>
+                <a href="#"><i class="fa fa-twitter fa-fw fa-3x sns"></i></a>
+                <a href="#"><i class="fa fa-linkedin fa-fw fa-3x sns"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+  <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+  <!-- Boostrap Core JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="wow.min.js"></script>
+  <script>
+    new WOW().init();
+  </script>
+</body>
+
+</html>
