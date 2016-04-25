@@ -1,1 +1,1 @@
-# EDM Polymer Player
+# Polymer EDM Player
