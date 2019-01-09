@@ -1,0 +1,17 @@
+{
+  "groups": {
+    "default": {
+      "packages": [
+        "bower_components/async/package.json",
+        "bower_components/chai/package.json",
+        "bower_components/marked/package.json",
+        "bower_components/prism/package.json",
+        "bower_components/promise-polyfill/package.json",
+        "bower_components/sinon-chai/package.json",
+        "bower_components/test-fixture/package.json",
+        "bower_components/webcomponentsjs/package.json",
+        "package.json"
+      ]
+    }
+  }
+}
